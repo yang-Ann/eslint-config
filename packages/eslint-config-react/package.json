@@ -1,0 +1,29 @@
+{
+  "name": "@anlib/eslint-config-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "An <331536495@qq.com> (https://ann-yang.gitee.io/note-sites/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "react": "18.2.0",
+    "typescript": "4.8.4"
+  }
+}

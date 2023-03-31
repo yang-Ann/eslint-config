@@ -1,0 +1,17 @@
+{
+  "name": "@anlib/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0"
+  }
+}
