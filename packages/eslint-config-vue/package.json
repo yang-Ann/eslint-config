@@ -1,11 +1,11 @@
 {
-  "name": "@anlib/eslint-config-react",
+  "name": "@anlib/eslint-config-vue",
   "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "author": "An <331536495@qq.com> (https://ann-yang.gitee.io/note-sites/)",
   "scripts": {
-    "lint": "eslint . --ext .ts,.js,.tsx --no-ignore index.js --config=index.js"
+    "lint": "eslint . --ext .ts,.js,.vue --no-ignore index.js --config=index.js"
   },
   "files": [
     "index.js"
@@ -22,12 +22,10 @@
   },
   "dependencies": {
     "@anlib/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-vue": "^9.8.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.24",
-    "react": "18.2.0",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "vue": "^3.2.45"
   }
 }
